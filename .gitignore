@@ -1,0 +1,52 @@
+# SERVER
+
+*.sqlite3
+
+
+############################
+# Misc.
+############################
+
+*#
+ssl
+.idea
+nbproject
+public/uploads/*
+!public/uploads/.gitkeep
+
+############################
+# Node.js
+############################
+
+lib-cov
+lcov.info
+pids
+logs
+results
+/server/node_modules
+/server/.node_history
+
+############################
+# Tests
+############################
+
+testApp
+coverage
+
+############################
+# Strapi
+############################
+
+/server/.env
+license.txt
+exports
+*.cache
+dist
+/server/build
+.strapi-updater.json
+
+# CLIENT
+
+/client/node_modules
+
+/client/build
