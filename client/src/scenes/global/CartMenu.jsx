@@ -30,9 +30,9 @@ const CartMenu = () => {
   }, 0);
 
   return (
-    <Box
+    <Box                          // Main div that covers all the page with some opacity
       display={isCartOpen ? "block" : "none"}
-      backgroundColor="rgba(0, 0, 0, 0.4)"
+      backgroundColor="rgba(0, 0, 0, 0.3)"    // Here we add the semi-opaque property
       position="fixed"
       zIndex={10}
       width="100%"
@@ -41,7 +41,7 @@ const CartMenu = () => {
       top="0"
       overflow="auto"
     >
-      <Box
+      <Box                  // ShoppingBag Menu on the top right side
         position="fixed"
         right="0"
         bottom="0"
