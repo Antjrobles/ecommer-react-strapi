@@ -38,11 +38,11 @@ const Item = ({ item, width }) => {
           alt={item.name}
           width="300px"
           height="400px"
-          src={`http://localhost:2000${url}`}
+          src={`http://localhost:1337${url}`}
           onClick={() => navigate(`/item/${item.id}`)}
           style={{ cursor: "pointer" }}
         />
-        <Box
+        <Box         // The "Add to cart" and + - inside each img
           display={isHovered ? "block" : "none"}
           position="absolute"
           bottom="10%"
