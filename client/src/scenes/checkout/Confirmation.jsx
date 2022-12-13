@@ -1,8 +1,18 @@
-
+import { Box, Alert, AlertTitle } from "@mui/material";
 
 
 const Confirmation = () => {
-    return <div>Confirmation</div>
-}
+    return <Box
+        m="90px auto" 
+        width="80%" 
+        height="50hv"
+        >
+        <Alert severity="success">
+            <AlertTitle>Success</AlertTitle>
+            You have successfully made an Order - {" "}
+            <strong>Congrats on making your purchase</strong>
+        </Alert>
+    </Box>
+};
 
 export default Confirmation;
