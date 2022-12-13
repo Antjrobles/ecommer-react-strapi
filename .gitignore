@@ -13,7 +13,8 @@ ssl
 nbproject
 public/uploads/*
 !public/uploads/.gitkeep
-.env 
+.env
+.tmp
 ############################
 # Node.js
 ############################
